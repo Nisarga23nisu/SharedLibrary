@@ -1,3 +1,3 @@
-def call(String name) {
-    echo "Hello, ${name}!"
+def call(name) {
+    echo "Pipeline run by $name"
 }
