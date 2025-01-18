@@ -1,0 +1,12 @@
+@Library('Test-groovy') _
+
+pipeline {
+    agent any
+        stages {
+            stage('Print') {
+                steps {
+                    Testing('Nisarga')
+            }
+        }
+    }
+}
